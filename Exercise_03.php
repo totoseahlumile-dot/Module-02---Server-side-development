@@ -62,7 +62,7 @@ echo "Your remaining balance is: R" . $balance . "<br>";
 
 
 ?>
- // Task 5 - Dynamic Discount
+
 
  <form method="POST"> Enter your amount:
     <input type="number" name="amount" placeholder = "Enter your amount">
