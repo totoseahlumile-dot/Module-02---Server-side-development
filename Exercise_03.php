@@ -54,13 +54,13 @@ echo "Your remaining balance is: R" . $balance . "<br>";
  $age = 18;
  $registered = true; 
 
- if (($age>=18 & $age <= 35) && $registered)
+ if (($age>=18 & $age <= 35) && $registered === true)
     echo "<br> Eligible to vote";
 
  else 
     echo "<br> Not eligible to vote";
 
-
+   // Task 5
 ?>
  <form method="POST"> Enter your amount:
     <input type="number" name="amount" placeholder = "Enter your amount">
@@ -80,7 +80,7 @@ if ($_POST['amount']) {
     } elseif ($amount >= 250 && $amount <= 499) {
         $discount = 0.02; // 2% discount
     } else {
-        $discount = 0; // No discount
+        $discount = 0; 
     }
 
 
