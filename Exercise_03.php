@@ -54,7 +54,7 @@ echo "Your remaining balance is: R" . $balance . "<br>";
  $age = 18;
  $registered = true; 
 
- if (($age>=18 & $age <= 35) && $registered)
+ if (($age>=18 & $age <= 35) && $registered === true)
     echo "<br> Eligible to vote";
 
  else 
